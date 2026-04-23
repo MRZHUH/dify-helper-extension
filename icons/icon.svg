@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c64f2"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+    <linearGradient id="highlight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="55%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="28%" cy="22%" r="55%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Rounded square background with gradient and subtle highlight -->
+  <rect width="128" height="128" rx="28" ry="28" fill="url(#bg)"/>
+  <rect width="128" height="128" rx="28" ry="28" fill="url(#highlight)"/>
+  <rect width="128" height="128" rx="28" ry="28" fill="url(#glow)"/>
+
+  <!-- Letter D (outer) -->
+  <path d="M 34 32 H 62 A 32 32 0 0 1 62 96 H 34 Z" fill="#ffffff"/>
+  <!-- Letter D (inner cutout, shows background through it) -->
+  <path d="M 49 48 H 62 A 16 16 0 0 1 62 80 H 49 Z" fill="url(#bg)"/>
+
+  <!-- Accent dot — the "signal/AI" hint inside the counter -->
+  <circle cx="55" cy="64" r="3.5" fill="#ffffff"/>
+
+  <!-- Subtle bottom edge for extra depth -->
+  <rect x="0" y="118" width="128" height="10" rx="28" ry="28" fill="#000000" opacity="0.05"/>
+</svg>

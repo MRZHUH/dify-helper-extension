@@ -1,0 +1,15 @@
+.DS_Store
+Thumbs.db
+
+# Packaged builds
+*.zip
+
+# Editor / OS noise
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local env
+.env
+.env.*
