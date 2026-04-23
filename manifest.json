@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Dify Helper",
   "version": "0.3.0",
-  "description": "Floating overlay on cloud.dify.ai that surfaces the current tenant, account, subscription, and app/workflow info — one click to copy as Markdown.",
+  "description": "Floating overlay on cloud.dify.ai showing tenant, account, subscription, and current app/workflow info. Copy as Markdown.",
   "minimum_chrome_version": "102",
   "host_permissions": ["https://cloud.dify.ai/*"],
   "icons": {

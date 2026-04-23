@@ -6,7 +6,11 @@ A zero-dependency browser extension that overlays a floating panel on **cloud.di
 
 | Sandbox | Team | App detail |
 | --- | --- | --- |
-| ![sandbox](images/sandbox-info.png) | ![team](images/team-info.png) | ![app](images/app-info.png) |
+| ![sandbox](dist/screenshots/sandbox-info.png) | ![team](dist/screenshots/team-info.png) | ![app](dist/screenshots/app-info.png) |
+
+> `images/` — original Retina captures (~2.5 MB total), kept as an archive.
+> `dist/screenshots/` — web-optimized 1280 px versions (~390 KB total, used above).
+> `dist/store-screenshots/` — 1280×800 RGB PNGs ready for Chrome Web Store upload.
 
 ## Install (developer mode)
 

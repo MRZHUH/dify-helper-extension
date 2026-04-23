@@ -1,7 +1,8 @@
 .DS_Store
 Thumbs.db
 
-# Packaged builds
+# Packaged builds — zip artifacts aren't tracked, but the image assets
+# under dist/ (screenshots, store-screenshots) are.
 *.zip
 
 # Editor / OS noise
